@@ -33,7 +33,12 @@ public class Alarts {
 		System.out.println(driver.switchTo().alert().getText());
 		driver.switchTo().alert().dismiss(); // to click on cancel button
 		driver.close();
-
+        driver.quit();
+    	driver.close();
+    	driver.close();
+    	driver.close();
+        driver.quit();
+        driver.quit();
 	}
 
 }
